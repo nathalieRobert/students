@@ -55,4 +55,12 @@ public class UserDto {
 		this.active = active;
 	}
 
+	@Override
+	public String toString() {
+	    return "UserDto [firstname=" + firstname + ", lastname=" + lastname
+		    + ", birthdate=" + birthdate + ", active=" + active + "]";
+	}
+	
+	
+
 }

@@ -13,4 +13,6 @@ public class UserUpdateDto extends UserDto {
 	public void setId(Long id) {
 		this.id = id;
 	}
+	
+	
 }

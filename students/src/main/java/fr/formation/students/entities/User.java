@@ -62,5 +62,26 @@ public class User {
 	public void setActive(boolean active) {
 		this.active = active;
 	}
+	
+	
+
+	
+	public Long getId() {
+	    return id;
+	}
+
+	
+	public void setId(Long id) {
+	    this.id = id;
+	}
+
+	@Override
+	public String toString() {
+	    return "User [id=" + id + ", firstname=" + firstname + ", lastname="
+		    + lastname + ", birthdate=" + birthdate + ", active="
+		    + active + "]";
+	}
+	
+	
 
 }
